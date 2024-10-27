@@ -1,0 +1,19 @@
+{
+  "name": "shopino",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "turbo dev",
+    "build": "turbo build",
+    "start": "turbo run start --parallel",
+    "lint": "biome format --write .",
+    "check:lint": "biome check --fix --unsafe"
+  },
+  "packageManager": "pnpm@8.15.6",
+  "engines": {
+    "node": ">=18"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^1.9.4",
+    "turbo": "^2.2.3"
+  }
+}

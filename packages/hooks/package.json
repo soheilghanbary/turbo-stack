@@ -1,0 +1,7 @@
+{
+  "name": "@repo/hooks",
+  "version": "1.0.0",
+  "dependencies": {
+    "react": "19.0.0-rc-cae764ce-20241025"
+  }
+}
