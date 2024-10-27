@@ -47,3 +47,6 @@ package-lock.json
 Thumbs.db
 .vscode/
 *.swp
+
+# Turborepo
+.turbo
