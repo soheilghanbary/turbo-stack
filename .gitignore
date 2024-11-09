@@ -37,11 +37,6 @@ out/
 # TypeScript
 *.tsbuildinfo
 
-# Cache and lock files
-yarn.lock
-pnpm-lock.yaml
-package-lock.json
-
 # Editor directories and files
 .DS_Store
 Thumbs.db
