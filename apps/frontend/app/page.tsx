@@ -1,12 +1,9 @@
 import { ModeToggle } from '@/components/common/mode-toggle';
 import { Suspense } from 'react';
 
-export const revalidate = 0;
-
 const getHello = async () => {
   const res = await fetch('http://localhost:5000/api/hello');
-  const data = await res.json();
-  return data;
+  return await res.json();
 };
 
 const HelloMessage = async () => {
