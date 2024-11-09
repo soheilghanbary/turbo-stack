@@ -1,4 +1,4 @@
 export const siteConfig = {
-  title: 'Rock FrontEnd',
-  description: 'The Rock FrontEnd',
+  title: 'Turbo Stack',
+  description: 'Frontend of Turbo Stack',
 };
